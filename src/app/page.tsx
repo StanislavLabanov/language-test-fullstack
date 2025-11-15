@@ -12,7 +12,6 @@ const Home = () => {
       <h3 className="text-center text-xs font-sans">
         тесты на определение уровня английского языка
       </h3>
-      klevlekmbmtklbnlrmknlmdrknlrdknl l;membkelb
       <Link
         className="mt-5 mb-2 inline-block text-xs/3 text-purple-800 underline"
         href={"express/info"}
