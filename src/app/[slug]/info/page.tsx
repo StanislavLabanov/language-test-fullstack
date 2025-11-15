@@ -2,7 +2,7 @@ import { TestInfoType } from "@/types/testinfo";
 import Link from "next/link";
 
 async function getTestInfo(test: string): Promise<TestInfoType> {
-  const res = await fetch(`http://localhost:3000/api/test-info/${test}`);
+  const res = await fetch(`https://language-test-fullstack.vercel.app/api/test-info/${test}`);
 
   if (!res.ok) throw new Error("Данные о тесте не получены");
 

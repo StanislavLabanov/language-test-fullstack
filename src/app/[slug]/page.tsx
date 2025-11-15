@@ -2,7 +2,7 @@ import { TestPageContent } from "@/components/testPageContent";
 import { TestTake } from "@/types/testtake";
 
 async function getTestData(test: string): Promise<TestTake> {
-  const res = await fetch(`http://localhost:3000/api/tests/${test}`);
+  const res = await fetch(`https://language-test-fullstack.vercel.app/api/tests/${test}`);
   if (!res.ok) {
     throw new Error("Failed to fetch test data");
   }
