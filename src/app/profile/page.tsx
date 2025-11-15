@@ -17,6 +17,7 @@ const Profile = () => {
 
   return (
     <div className="w-full mt-4">
+      klevlekmbmtklbnlrmknlmdrknlrdknl l;membkelb
       <h1 className="text-base font-medium mb-2">
         {user?.first_name} {user?.last_name}
       </h1>
@@ -26,6 +27,7 @@ const Profile = () => {
       <div className="text-xs text-gray-600">
         Язык приложения: {user?.language_code?.toUpperCase()}
       </div>
+      {tg ? JSON.stringify(tg) : 'testttttttt'}
     </div>
   );
 };
